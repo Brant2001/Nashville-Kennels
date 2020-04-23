@@ -17,7 +17,7 @@ export default () => {
         <>
             <h2>Employees</h2>
 
-            <div className="fakeLink href" onClick={toggle}>New Employee</div>
+            <div className="fakeLink href" onClick={toggle}><Button>New Employee</Button></div>
 
             <ul className="employees">
                 {
