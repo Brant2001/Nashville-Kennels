@@ -5,7 +5,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 import LocationForm from "./LocationForm"
 
 
-export default () => {
+export const LocationList = () => {
     const { locations } = useContext(LocationContext)
 
     const [modal, setModal] = useState(false)
