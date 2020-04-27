@@ -3,7 +3,7 @@ import { EmployeeContext } from "./EmployeeProvider"
 import { LocationContext } from "../location/LocationProvider"
 import "./Employee.css"
 
-export default props => {
+export const EmployeeForm = (props) => {
     const { addEmployee } = useContext(EmployeeContext)
     const { locations } = useContext(LocationContext)
     const name = useRef("name")
