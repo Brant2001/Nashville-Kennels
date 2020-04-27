@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { Modal, ModalHeader, ModalBody, Button } from "reactstrap"
 import { EditEmployeeForm } from "./EditEmployeeForm"
 
-
 export const Employee = ({employee, location}) => {
     const [editModal, setEditModal] = useState(false)
     const toggleEdit = () => setEditModal(!editModal)
